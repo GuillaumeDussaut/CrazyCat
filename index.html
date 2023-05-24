@@ -1,7 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/a4e4faa4f9.js" crossorigin="anonymous"></script>
     <title>CrazyCat</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +17,26 @@
     <header>
         <h1>CrazyCat</h1>
     </header>
+    <!-- fenêtre de jeu -->
+    
+    <div class="modale" id="fenetreJeu">
+        <i class="fa-solid fa-xmark" id="close"></i>
+        <div class="fenetreJeu" id="gameJeu">
+          <p>score: <span id="score">0</span></p>
+          <div class="cat" id="cat">
+            <i class="fa-solid fa-cat" id="catIcon"></i>
+          </div>
+        </div>
+      </div>
+    <div class="gameContainer" id="gameCont">
+        <h1>En cours de dev</h1>
+        <h1>Bienvenue sur CrazyCat</h1>
+        <button type="button" id="btnOpen">JOUER</button>
+    </div>
     <footer>
         <a href="https://www.linkedin.com/in/guillaume-dussaut-57957a18b/" target="_blank">Made by @Soski</a>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="jeu.js"></script>
 </body>
 </html>
